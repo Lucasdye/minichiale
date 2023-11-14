@@ -1,0 +1,23 @@
+echo "'"
+echo "''"
+echo "'''"
+echo '"'""''
+echo '"'"'"'"'"'""'"'"'"'"'"'""
+echo ""'$PATH'""
+echo ""'$PWD'"''"
+echo '"'"''$OLDPWD""''""''"'"'
+echo '"("('
+echo Je suis a l'ecole pour rendre ce fameux projet "minishell" qu\'on nomme par plaisanterie  "minichiale"
+echo "Je suis a l'ecole pour rendre ce fameux projet "minishell" qu\'on nomme par plaisanterie "minichiale""
+wrongcommand
+pwd
+pwd garbage
+ls | cat -e
+ls -l | cat -e
+ls -l | grep "0"
+ls -la | cat -e
+ls -la | wc -l | cat -e
+ls -la | wc -c | cat -e | cat -e
+ls -la | grep "123" | wc -c | cat -e
+export
+env
